@@ -18,6 +18,11 @@ dist-ssr
 .env.*
 !.env.example
 
+# .NET build output -- not used by this app, but ignored so that nesting the
+# CampusEats.Api project inside this repo can never commit compiled artefacts.
+[Bb]in/
+[Oo]bj/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
